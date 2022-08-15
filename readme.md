@@ -10,7 +10,7 @@
 
 ![name](https://img.shields.io/badge/Vimal--Kumar-lightgrey)
 
-## Project 3 [Live Link](https://food-restaurent-homepage.netlify.app/)
+## Project 3 [Live Link](https://law-homepage.netlify.app/)
 
 - Skills Gained in this project
 
