@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #171101d8;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* NAVBAR */
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.6rem 5.2rem;
+}
+
+.navbar-container div img {
+  height: 4rem;
+}
+
+.grow-list {
+  margin-left: auto;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  gap: 3.2rem;
+}
+
+.list-item {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #ffffff57;
+}
+
+.list-item:first-child {
+  font-weight: 500;
+  color: #ffffff;
+}
+
+/* BUTTON */
+
+.button-group {
+  margin-left: 3.2rem;
+}
+
+.nav-button {
+  font-size: 1.6rem;
+  color: #f7b202;
+  background-color: transparent;
+  border: 1px solid #f7b202;
+  padding: 1.2rem 2.4rem;
+  border-radius: 1rem;
+}
+
+/* Hero section */
+
+.hero-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6.4rem;
+  padding: 1.6rem 7rem 3.2rem 7rem;
+}
+
+.hero-heading {
+  flex: 0 0 48%;
+}
+
+.hero-heading h1 {
+  font-size: 6.4rem;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.4;
+}
+
+.description {
+  padding-right: 6rem;
+}
+
+.description p {
+  font-size: 2rem;
+  font-weight: 300;
+  color: #ffffff57;
+}
+
+.hero-img {
+  background: url(./assets/pexels-ekaterina-bolovtsova-6077326.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+
+/* arrow buttons */
+
+.bottom div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.button-large-prev,
+.button-large-next {
+  font-size: 3.6rem;
+  font-weight: 200;
+  padding: 0.6rem 3rem;
+}
+
+.button-large-prev {
+  background-color: #2b2922;
+  color: #f7b202;
+  position: relative;
+}
+
+.button-large-prev::after {
+  content: " ";
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  position: absolute;
+  border: 1px solid #f7b202;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.button-large-next {
+  background-color: #a08f36;
+  color: #ffffff;
+  position: relative;
+}
+
+.button-large-next::after {
+  content: " ";
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  position: absolute;
+  border: 1px solid #ffffff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
